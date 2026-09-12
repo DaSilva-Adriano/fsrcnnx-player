@@ -1,0 +1,10 @@
+vendor/mpv/
+vendor/*.7z
+vendor/7zr.exe
+vendor/*.log
+portable_config/shader-cache/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
