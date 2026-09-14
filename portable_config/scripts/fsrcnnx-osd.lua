@@ -8,6 +8,9 @@ local function label_from(shaders)
     if shaders:find("8%-0%-4%-1", 1, false) then
         return "FSRCNNX-8"
     end
+    if shaders == "" then
+        return "None — native (no AI)"
+    end
     return nil
 end
 
