@@ -20,7 +20,7 @@ FSRCNNX is a **2× doubler**. It only hooks when the output is more than about 1
 
 Double-click `launch.bat`.
 
-First launch downloads a portable **mpv** build (zhongfly) and the two shaders if they are not already in `vendor\\mpv` / `portable_config\\shaders`. After that: add videos to the queue, pick **None** / FSRCNNX-8 / FSRCNNX-16, select a row, **Play**.
+First launch downloads a portable **mpv** build (zhongfly) and the two shaders if they are not already in `vendor\mpv` / `portable_config\shaders`. After that: add videos to the queue, pick **None** / FSRCNNX-8 / FSRCNNX-16, select a row, **Play**.
 
 ```bat
 launch.bat
@@ -53,7 +53,7 @@ mpvai.py                  Windows GUI
 launch.bat
 ```
 
-`install.py` puts `portable_config` next to `mpv.exe` so mpv runs in portable mode and **ignores** `%APPDATA%\\mpv`. A global mpv config cannot pull in extra shaders.
+`install.py` puts `portable_config` next to `mpv.exe` so mpv runs in portable mode and **ignores** `%APPDATA%\mpv`. A global mpv config cannot pull in extra shaders.
 
 ## License
 
